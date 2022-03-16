@@ -2,7 +2,7 @@
 
 @section('content')
   <main>
-    <div class="about">
+    <div id="about">
       <h1>About</h1>
       <img src="" alt="自分の写真">
       <p>宮城県仙台市出身。大学まで声楽を学習する。
@@ -10,11 +10,11 @@
         <br>2022年より川崎市の制作会社にてLaravel、Reactでの業務を行う。
       </p>
     </div>
-    <div class="works">
+    <div id="works">
       <h1>Works</h1>
       
     </div>
-    <div class="blog">
+    <div id="blog">
       <h1>Blog</h1>
 
     </div>

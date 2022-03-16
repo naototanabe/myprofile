@@ -5,10 +5,10 @@
 
     <div class="collapse navbar-collapse" id="nav-bar">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">About</li>
-        <li class="nav-item">Works</li>
-        <li class="nav-item">Blog</li>
-        <li class="nav-item">Contact</li>
+        <li class="nav-item"><a href="#about">About</a></li>
+        <li class="nav-item"><a href="#works">Works</a></li>
+        <li class="nav-item"><a href="#blog">Blog</a></li>
+        <li class="nav-item"><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>

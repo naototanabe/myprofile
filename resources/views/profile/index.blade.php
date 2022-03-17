@@ -12,7 +12,16 @@
     </div>
     <div id="works">
       <h1>Works</h1>
-      
+      <table>
+        <tr><th>title</th><th>url</th><th>image</th></tr>
+          @foreach ($items as $item)
+            <tr>
+             <td>{{$item->title}}</td>
+             <td>{{$item->url}}</td>
+            <td>{{$item->img}}</td>
+            </tr> 
+          @endforeach
+        </table>
     </div>
     <div id="blog">
       <h1>Blog</h1>

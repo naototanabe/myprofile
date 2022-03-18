@@ -12,16 +12,12 @@
     </div>
     <div id="works">
       <h1>Works</h1>
-      <table>
-        <tr><th>title</th><th>url</th><th>image</th></tr>
-          @foreach ($items as $item)
-            <tr>
-             <td>{{$item->title}}</td>
-             <td>{{$item->url}}</td>
-            <td>{{$item->img}}</td>
-            </tr> 
-          @endforeach
-        </table>
+      <div class="col-4">
+      @foreach ($items as $item)
+        <a href="{{$item->url}}"><img src="{{ asset('/storage/Good-Habit1.png')}}"></a>
+        <a href="{{$item->url}}">{{$item->url}}</a>
+      @endforeach
+      </div>
     </div>
     <div id="blog">
       <h1>Blog</h1>

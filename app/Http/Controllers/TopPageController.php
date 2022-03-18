@@ -11,4 +11,11 @@ class TopPageController extends Controller
         $items = DB::table('works')->get();
         return view ('profile.index', ['items' => $items]); 
     }
+
+    public function store (Request $request)
+    {
+        $workimage = $request->workimage;
+
+        $workimage->store('public');
+    }
 }

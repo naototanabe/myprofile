@@ -18,7 +18,7 @@ class WorksSeeder extends Seeder
         $param = [
             'title' => 'good-habit',
             'url' => 'https://good-habit-jp.herokuapp.com/',
-            'img' => 'https://good-habit-jp.herokuapp.com/image/Good-Habit1.png',
+            'img' => '/storage/Good-Habit1.png',
         ];
         DB::table('works')->insert($param);
     }
